@@ -9,6 +9,7 @@ for el in stack:
         if el % i == 0:
             counter += 1
     if counter == 2:
+        print(el)
         counter_res += 1
 
 print(counter_res)
