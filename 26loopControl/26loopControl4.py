@@ -8,6 +8,7 @@ name = input('name: ')
 psw = input('psw: ')
 
 while True:
+    psw = input('psw: ')
     if len(psw) < 8:
         print('Too short password')
     elif name in psw:
@@ -15,5 +16,5 @@ while True:
     else:
         print("psw was set")
         break
-    psw = input('psw: ')
+
 
